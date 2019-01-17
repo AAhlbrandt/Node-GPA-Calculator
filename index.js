@@ -32,19 +32,19 @@ function main(){
 
 function getNumberFromLetterGrade(char){
     char = char.trim();
-    if(char=='a'||char=='A'||char=='4'){
+    if(char.toString().toLowerCase() =='a'||char=='4'){
         return 4;
     }
-    else if(char=='b'||char=='B'||char=='3'){
+    else if(char.toString().toLowerCase()=='b'||char=='3'){
         return 3;
     }
-    else if(char=='c'||char=='C'||char=='2'){
+    else if(char.toString().toLowerCase()=='c'||char=='2'){
         return 2;
     }
-    else if(char=='d'||char=='D'||char=='1'){
+    else if(char.toString().toLowerCase()=='d'||char=='1'){
         return 1;
     }
-    else if(char=='f'||char=='F'||char=='0'){
+    else if(char.toString().toLowerCase()=='f'||char=='0'){
         return 0;
     }
 }
