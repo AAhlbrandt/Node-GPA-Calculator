@@ -1,5 +1,5 @@
 //GPA Calculator
-//Written By Alexander
+//Written By Alec Ahlbrandt
 
 var readlineSync = require('readline-sync');
 
